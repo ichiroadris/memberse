@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\EventController;
 use App\Http\Controllers\MemberController;
+use App\Http\Controllers\PostController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -33,6 +35,9 @@ Route::group(['middleware' => ['role:admin']], function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
 
     Route::get('/admin/members', [MemberController::class, 'index']);
+    Route::get('/admin/events', [EventController::class, 'index']);
+    Route::get('/admin/posts', [PostController::class, 'index']);
+
 });
 
 Route::group(['middleware' => ['role:member']], function () {
