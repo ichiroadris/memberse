@@ -27,3 +27,9 @@ Route::get('/', function () {
 Route::group(['middleware' => ['role:admin']], function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
 });
+
+Route::group(['middleware' => ['role:member']], function () {
+    Route::get('/member', function () {
+        return view('welcome');
+    })->name('member');
+});

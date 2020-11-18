@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $role = Role::create(['name' => 'admin']);
+        $role2 = Role::create(['name' => 'member']);
         $permission = Permission::create(['name' => 'super']);
 
         $role->givePermissionTo($permission);

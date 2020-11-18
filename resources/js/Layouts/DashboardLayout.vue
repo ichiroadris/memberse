@@ -376,7 +376,7 @@
                     </ul>
                 </div>
             </header>
-            <main class="h-full overflow-y-auto"></main>
+            <main class="h-full overflow-y-auto"><slot name="content"></slot></main>
         </div>
     </div>
 </template>
