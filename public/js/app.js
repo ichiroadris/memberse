@@ -3492,6 +3492,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -3503,6 +3535,13 @@ __webpack_require__.r(__webpack_exports__);
     return {
       isSideMenuOpen: false
     };
+  },
+  methods: {
+    logout: function logout() {
+      axios.post(route("logout").url()).then(function (response) {
+        window.location = "/";
+      });
+    }
   }
 });
 
@@ -25955,7 +25994,7 @@ var render = function() {
                   {
                     staticClass:
                       "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                    attrs: { href: "forms.html" }
+                    attrs: { href: "/admin/members" }
                   },
                   [
                     _c(
@@ -26149,7 +26188,7 @@ var render = function() {
                         {
                           staticClass:
                             "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                          attrs: { href: "index.html" }
+                          attrs: { href: "/dashboard" }
                         },
                         [
                           _c(
@@ -26191,7 +26230,7 @@ var render = function() {
                         {
                           staticClass:
                             "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                          attrs: { href: "forms.html" }
+                          attrs: { href: "" }
                         },
                         [
                           _c(
@@ -26634,6 +26673,7 @@ var render = function() {
                                       _c(
                                         "form",
                                         {
+                                          attrs: { method: "POST" },
                                           on: {
                                             submit: function($event) {
                                               $event.preventDefault()

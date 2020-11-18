@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MemberController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -17,7 +18,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia('Dashboard');
+    return view('welcome');
 });
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
@@ -25,7 +26,13 @@ Route::get('/', function () {
 // })->name('dashboard');
 
 Route::group(['middleware' => ['role:admin']], function () {
+    Route::get('/admin', function () {
+        return redirect('dashboard');
+    });
+
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+
+    Route::get('/admin/members', [MemberController::class, 'index']);
 });
 
 Route::group(['middleware' => ['role:member']], function () {
