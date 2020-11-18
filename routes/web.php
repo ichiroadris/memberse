@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Inertia('Dashboard');
 });
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

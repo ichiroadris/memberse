@@ -14,6 +14,6 @@ class AdminController extends Controller
     {
         $user = Auth::user();
         // return dd($user->getRoleNames());
-        return Inertia::render('Dashboard');
+        return Inertia::render('Admin/Index');
     }
 }
