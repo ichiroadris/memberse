@@ -24,5 +24,5 @@ mix.browserSync({
         ws: true
     },
     port: 3010,
-    reloadOnRestart: true
+    reloadOnRestart: false
 });
