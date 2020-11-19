@@ -20,6 +20,7 @@ class CreateEventsTable extends Migration
             $table->text('location');
             $table->timestamp('date');
             $table->float('price');
+            $table->text('visibility')->nullable();
             $table->timestamps();
         });
     }

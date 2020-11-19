@@ -35,8 +35,13 @@ Route::group(['middleware' => ['role:admin']], function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
     Route::get('/admin/members', [MemberController::class, 'index'])->name('members.index');
     Route::get('/admin/events', [EventController::class, 'index'])->name('events.index');
+    Route::post('/admin/create/event', [EventController::class, 'create'])->name('create.event');
     Route::get('/admin/posts', [PostController::class, 'index'])->name('posts.index');
 });
+
+Route::get('/events', [EventController::class, 'publicIndex']);
+Route::get('/event/{id}', [EventController::class, 'publicShow']);
+
 
 Route::group(['middleware' => ['role:member']], function () {
     Route::get('/member', function () {

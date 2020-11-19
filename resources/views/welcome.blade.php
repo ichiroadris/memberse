@@ -407,15 +407,21 @@
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
         <div class="fixed top-0 left-0 px-6 py-4 flex items-center">
-            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
-                </path>
-            </svg>
-            <h1 class="text-lg font-bold">Memberse</h1>
+            <a href="/" class="flex">
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
+                    </path>
+                </svg>
+                <h1 class="text-lg font-bold">Memberse</h1>
+            </a>
         </div>
         @if (Route::has('login'))
         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            <a href="{{ url('/events') }}"
+                class="py-2 font-medium leading-5 text-black transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-purple ml-4">Events</a>
+                <a href="{{ url('/posts') }}"
+                class="px-4 py-2 font-medium leading-5 text-black transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-purple">Latest Posts</a>
             @auth
             @if(auth()->user()->can('super'))
             <a href="{{ url('/dashboard') }}"

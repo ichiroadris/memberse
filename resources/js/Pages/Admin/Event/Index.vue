@@ -64,81 +64,41 @@
                                         v-show="showModal"
                                         aria-labelledby="modal-headline"
                                     >
-                                        <div
-                                            class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4"
-                                        >
-                                            <div class="sm:flex md:-ml-5 sm:items-start">
-                                                <div
-                                                    class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full"
-                                                >
-                                                    <h3
-                                                        class="text-lg leading-6 font-medium text-gray-900"
-                                                        id="modal-headline"
+                                        <form @submit.prevent="submit()">
+                                            <div
+                                                class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4"
+                                            >
+                                                <div class="sm:flex md:-ml-5 sm:items-start">
+                                                    <div
+                                                        class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full"
                                                     >
-                                                        Create Event
-                                                    </h3>
-                                                    <div>
-                                                        <p
-                                                            class="text-sm text-gray-500"
+                                                        <h3
+                                                            class="text-lg leading-6 font-medium text-gray-900"
+                                                            id="modal-headline"
                                                         >
-                                                            Create an Event for
-                                                            your members
-                                                        </p>
-                                                    </div>
-                                                    <div class="mt-2 w-full">
-                                                        <h4
-                                                            class="text-lg mb-1"
-                                                        >
-                                                            Title
-                                                        </h4>
-                                                        <input
-                                                            name="title"
-                                                            id="title"
-                                                            type="text"
-                                                            placeholder="Enter title"
-                                                            class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
-                                                        />
-                                                    </div>
-                                                    <div class="mt-2 w-full">
-                                                        <h4
-                                                            class="text-lg mb-1"
-                                                        >
-                                                            Description
-                                                        </h4>
-                                                        <input
-                                                            name="description"
-                                                            id="description"
-                                                            type="text"
-                                                            placeholder="Enter description"
-                                                            class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
-                                                        />
-                                                    </div>
-
-                                                    <div class="mt-2 w-full">
-                                                        <h4
-                                                            class="text-lg mb-1"
-                                                        >
-                                                            Location
-                                                        </h4>
-                                                        <input
-                                                            name="location"
-                                                            id="location"
-                                                            type="text"
-                                                            placeholder="Enter location"
-                                                            class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
-                                                        />
-                                                    </div>
-                                                    <div class="flex">
-                                                        <div class="mt-2 w-full mr-2">
+                                                            Create Event
+                                                        </h3>
+                                                        <div>
+                                                            <p
+                                                                class="text-sm text-gray-500"
+                                                            >
+                                                                Create an Event for
+                                                                your members
+                                                            </p>
+                                                        </div>
+                                                        <div class="mt-2 w-full">
                                                             <h4
                                                                 class="text-lg mb-1"
                                                             >
-                                                                Date
+                                                                Title
                                                             </h4>
                                                             <input
-                                                                name="date"
-                                                                id="date"
-                                                                type="datetime-local"
+                                                            required
+                                                                name="title"
+                                                                id="title"
+                                                                type="text"
+                                                                placeholder="Enter title"
+                                                                v-model="form.title"
                                                                 class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                                                             />
                                                         </div>
@@ -146,51 +106,106 @@
                                                             <h4
                                                                 class="text-lg mb-1"
                                                             >
-                                                                Price
+                                                                Description
                                                             </h4>
                                                             <input
-                                                                name="price"
-                                                                id="price"
-                                                                type="number"
-                                                                placeholder="Enter price"
+                                                            required
+                                                                name="description"
+                                                                id="description"
+                                                                type="text"
+                                                                v-model="form.description"
+                                                                placeholder="Enter description"
                                                                 class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                                                             />
                                                         </div>
+                                                        <div class="mt-2 w-full">
+                                                            <h4
+                                                                class="text-lg mb-1"
+                                                            >
+                                                                Location
+                                                            </h4>
+                                                            <input
+                                                            required
+                                                                name="location"
+                                                                id="location"
+                                                                type="text"
+                                                                placeholder="Enter location"
+                                                                v-model="form.location"
+                                                                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                                                            />
+                                                        </div>
+                                                        <div class="flex">
+                                                            <div class="mt-2 w-full mr-4">
+                                                                <h4
+                                                                    class="text-lg mb-1"
+                                                                >
+                                                                    Date
+                                                                </h4>
+                                                                <input
+                                                                required
+                                                                    name="date"
+                                                                    id="date"
+                                                                    type="datetime-local"
+                                                                    v-model="form.date"
+                                                                    class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                                                                />
+                                                            </div>
+                                                            <div class="mt-2 w-full">
+                                                                <h4
+                                                                    class="text-lg mb-1"
+                                                                >
+                                                                    Price
+                                                                </h4>
+                                                                <div class="flex items-center">
+                                                                    <span class="mr-2">RM</span>
+                                                                    <input
+                                                                    required
+                                                                        name="price"
+                                                                        id="price"
+                                                                        type="number"
+                                                                        placeholder="Enter price"
+                                                                        v-model="form.price"
+                                                                        class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                                                                    />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="mt-2 w-full">
+                                                            <h4
+                                                                class="text-lg mb-1"
+                                                            >
+                                                                Title
+                                                            </h4>
+                                                            <input
+                                                            required
+                                                                name="title"
+                                                                id="title"
+                                                                type="text"
+                                                                placeholder="Enter title"
+                                                                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                                                            />
+                                                        </div> -->
                                                     </div>
-                                                    <!-- <div class="mt-2 w-full">
-                                                        <h4
-                                                            class="text-lg mb-1"
-                                                        >
-                                                            Title
-                                                        </h4>
-                                                        <input
-                                                            name="title"
-                                                            id="title"
-                                                            type="text"
-                                                            placeholder="Enter title"
-                                                            class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
-                                                        />
-                                                    </div> -->
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div
-                                            class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse"
-                                        >
-                                            <button
-                                                type="button"
-                                                class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-purple-600 text-base font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:ml-3 sm:w-auto sm:text-sm"
+                                            <div
+                                                class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse"
                                             >
-                                                Submit
-                                            </button>
-                                            <button
-                                                type="button"
-                                                class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-                                                @click="showModal = false"
-                                            >
-                                                Cancel
-                                            </button>
-                                        </div>
+                                                <button
+                                                    type="submit"
+                                                    class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-purple-600 text-base font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:ml-3 sm:w-auto sm:text-sm"
+                                                >
+                                                    Submit
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                                                    @click="showModal = false"
+                                                >
+                                                    Cancel
+                                                </button>
+                                            </div>
+                                        </form>
                                     </div>
                                 </transition>
                             </div>
@@ -205,159 +220,47 @@
                                 <tr
                                     class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
                                 >
-                                    <th class="px-4 py-3">Client</th>
-                                    <th class="px-4 py-3">Amount</th>
-                                    <th class="px-4 py-3">Status</th>
+                                    <th class="px-4 py-3">Title</th>
+                                    <th class="px-4 py-3">Location</th>
+                                    <th class="px-4 py-3">Visibility</th>
+                                    <th class="px-4 py-3">Participants</th>
                                     <th class="px-4 py-3">Date</th>
+
                                 </tr>
                             </thead>
                             <tbody
                                 class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800"
                             >
-                                <tr class="text-gray-700 dark:text-gray-400">
+                                <tr v-for="event in events" :key="event.index" class="text-gray-700 dark:text-gray-400">
                                     <td class="px-4 py-3">
                                         <div class="flex items-center text-sm">
-                                            <!-- Avatar with inset shadow -->
-                                            <div
-                                                class="relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                            >
-                                                <img
-                                                    class="object-cover w-full h-full rounded-full"
-                                                    src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=200&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
-                                                    alt=""
-                                                    loading="lazy"
-                                                />
-                                                <div
-                                                    class="absolute inset-0 rounded-full shadow-inner"
-                                                    aria-hidden="true"
-                                                ></div>
-                                            </div>
                                             <div>
                                                 <p class="font-semibold">
-                                                    Hans Burger
+                                                    {{event.title}}
                                                 </p>
                                                 <p
                                                     class="text-xs text-gray-600 dark:text-gray-400"
                                                 >
-                                                    10x Developer
+                                                    {{event.description}}
                                                 </p>
                                             </div>
                                         </div>
                                     </td>
                                     <td class="px-4 py-3 text-sm">
-                                        $ 863.45
-                                    </td>
-                                    <td class="px-4 py-3 text-xs">
-                                        <span
-                                            class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                        >
-                                            Approved
-                                        </span>
+                                        {{event.location}}
                                     </td>
                                     <td class="px-4 py-3 text-sm">
-                                        6/10/2020
+                                        Public
+                                    </td>
+                                    <td class="px-4 py-3 text-sm">
+                                        0
+                                    </td>
+                                    <td class="px-4 py-3 text-sm">
+                                        {{event.date}}
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div
-                        class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800"
-                    >
-                        <span class="flex items-center col-span-3">
-                            Showing 21-30 of 100
-                        </span>
-                        <span class="col-span-2"></span>
-                        <!-- Pagination -->
-                        <span
-                            class="flex col-span-4 mt-2 sm:mt-auto sm:justify-end"
-                        >
-                            <nav aria-label="Table navigation">
-                                <ul class="inline-flex items-center">
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple"
-                                            aria-label="Previous"
-                                        >
-                                            <svg
-                                                aria-hidden="true"
-                                                class="w-4 h-4 fill-current"
-                                                viewBox="0 0 20 20"
-                                            >
-                                                <path
-                                                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                                    clip-rule="evenodd"
-                                                    fill-rule="evenodd"
-                                                ></path>
-                                            </svg>
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            1
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            2
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            3
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            4
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <span class="px-3 py-1">...</span>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            8
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                        >
-                                            9
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button
-                                            class="px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple"
-                                            aria-label="Next"
-                                        >
-                                            <svg
-                                                class="w-4 h-4 fill-current"
-                                                aria-hidden="true"
-                                                viewBox="0 0 20 20"
-                                            >
-                                                <path
-                                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                                    clip-rule="evenodd"
-                                                    fill-rule="evenodd"
-                                                ></path>
-                                            </svg>
-                                        </button>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </span>
                     </div>
                 </div>
             </div>
@@ -371,10 +274,32 @@ import DashboardLayout from "../../../Layouts/DashboardLayout.vue";
 
 export default {
     components: { DashboardLayout },
+    props: ['events'],
     data() {
         return {
-            showModal: true
+            showModal: false,
+            form: {
+                title: null,
+                description: null,
+                location: null,
+                date: null,
+                price: null
+            }
         };
+    },
+    methods: {
+        submit() {
+            console.log('triggered')
+            this.$inertia.post('/admin/create/event', this.form);
+            this.showModal = false;
+            this.form =  {
+                title: null,
+                description: null,
+                location: null,
+                date: null,
+                price: null
+            }
+        }
     }
 };
 </script>
