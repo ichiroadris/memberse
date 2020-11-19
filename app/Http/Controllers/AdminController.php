@@ -13,6 +13,7 @@ class AdminController extends Controller
     public function index()
     {
         $user = Auth::user();
+
         // return dd($user->getRoleNames());
         return Inertia::render('Admin/Index');
     }

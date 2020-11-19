@@ -8,7 +8,7 @@ use Inertia\Inertia;
 class MemberController extends Controller
 {
     public function index() {
-        return Inertia::render('Admin/Member/Index');
 
+        return Inertia::render('Admin/Member/Index');
     }
 }
