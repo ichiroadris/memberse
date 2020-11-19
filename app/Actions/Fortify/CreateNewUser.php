@@ -2,6 +2,7 @@
 
 namespace App\Actions\Fortify;
 
+use App\Models\Subscription;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -25,10 +26,22 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $this->passwordRules(),
         ])->validate();
 
-        return User::create([
+        $user = User::create([
             'name' => $input['name'],
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
         ]);
+
+        $user->assignRole($input['membership']);
+
+        if($user->hasAnyRole(['silver', 'gold'])) {
+            $subs = Subscription::create();
+            $subs->expires_at = now()->addDays(30);
+            $subs->save();
+            $user->subscription_id = $subs->id;
+            $user->save();
+        }
+
+        return $user;
     }
 }
