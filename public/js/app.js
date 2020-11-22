@@ -4430,6 +4430,75 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
  // import Welcome from '@/Jetstream/Welcome'
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -37490,7 +37559,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            Total clients\n                        "
+                              "\n                            Total Members\n                        "
                             )
                           ]
                         ),
@@ -37557,7 +37626,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            Account balance\n                        "
+                              "\n                            Account\n                        "
                             )
                           ]
                         ),
@@ -37570,7 +37639,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            $ 46,760.89\n                        "
+                              "\n                            RM 46,760.89\n                        "
                             )
                           ]
                         )
@@ -37598,14 +37667,17 @@ var render = function() {
                               staticClass: "w-5 h-5",
                               attrs: {
                                 fill: "currentColor",
-                                viewBox: "0 0 20 20"
+                                viewBox: "0 0 20 20",
+                                xmlns: "http://www.w3.org/2000/svg"
                               }
                             },
                             [
                               _c("path", {
                                 attrs: {
+                                  "fill-rule": "evenodd",
                                   d:
-                                    "M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                                    "M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z",
+                                  "clip-rule": "evenodd"
                                 }
                               })
                             ]
@@ -37622,7 +37694,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            New sales\n                        "
+                              "\n                            Active Events\n                        "
                             )
                           ]
                         ),
@@ -37635,7 +37707,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            376\n                        "
+                              "\n                            6\n                        "
                             )
                           ]
                         )
@@ -37663,7 +37735,8 @@ var render = function() {
                               staticClass: "w-5 h-5",
                               attrs: {
                                 fill: "currentColor",
-                                viewBox: "0 0 20 20"
+                                viewBox: "0 0 20 20",
+                                xmlns: "http://www.w3.org/2000/svg"
                               }
                             },
                             [
@@ -37671,7 +37744,7 @@ var render = function() {
                                 attrs: {
                                   "fill-rule": "evenodd",
                                   d:
-                                    "M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z",
+                                    "M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
                                   "clip-rule": "evenodd"
                                 }
                               })
@@ -37689,7 +37762,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            Pending contacts\n                        "
+                              "\n                            Membership Type\n                        "
                             )
                           ]
                         ),
@@ -37702,7 +37775,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                            35\n                        "
+                              "\n                            4\n                        "
                             )
                           ]
                         )
@@ -37710,7 +37783,120 @@ var render = function() {
                     ]
                   )
                 ]
-              )
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "grid grid-cols-2 gap-6 mb-8" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+                  },
+                  [
+                    _c(
+                      "h4",
+                      {
+                        staticClass:
+                          "mb-4 font-semibold text-gray-800 dark:text-gray-300"
+                      },
+                      [
+                        _vm._v(
+                          "\n                        Doughnut/Pie\n                    "
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("canvas", { attrs: { id: "pie" } }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400"
+                      },
+                      [
+                        _c("div", { staticClass: "flex items-center" }, [
+                          _c("span", {
+                            staticClass:
+                              "inline-block w-3 h-3 mr-1 bg-blue-600 rounded-full"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [_vm._v("Shirts")])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "flex items-center" }, [
+                          _c("span", {
+                            staticClass:
+                              "inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [_vm._v("Shoes")])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "flex items-center" }, [
+                          _c("span", {
+                            staticClass:
+                              "inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [_vm._v("Bags")])
+                        ])
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+                  },
+                  [
+                    _c(
+                      "h4",
+                      {
+                        staticClass:
+                          "mb-4 font-semibold text-gray-800 dark:text-gray-300"
+                      },
+                      [
+                        _vm._v(
+                          "\n                        Lines\n                    "
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("canvas", { attrs: { id: "line" } }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400"
+                      },
+                      [
+                        _c("div", { staticClass: "flex items-center" }, [
+                          _c("span", {
+                            staticClass:
+                              "inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [_vm._v("Organic")])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "flex items-center" }, [
+                          _c("span", {
+                            staticClass:
+                              "inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [_vm._v("Paid")])
+                        ])
+                      ]
+                    )
+                  ]
+                )
+              ])
             ])
           ]
         },
