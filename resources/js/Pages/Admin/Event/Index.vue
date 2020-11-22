@@ -235,9 +235,9 @@
                                     <td class="px-4 py-3">
                                         <div class="flex items-center text-sm">
                                             <div>
-                                                <p class="font-semibold">
+                                                <a class="font-semibold text-blue-500" :href="'/admin/event/show/'+event.id">
                                                     {{event.title}}
-                                                </p>
+                                                </a>
                                                 <p
                                                     class="text-xs text-gray-600 dark:text-gray-400"
                                                 >

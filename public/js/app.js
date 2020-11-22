@@ -3524,6 +3524,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -4189,6 +4207,50 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Layouts_DashboardLayout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../Layouts/DashboardLayout.vue */ "./resources/js/Layouts/DashboardLayout.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+ // import Welcome from '@/Jetstream/Welcome'
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    DashboardLayout: _Layouts_DashboardLayout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  props: ['event'],
+  data: function data() {
+    return {};
+  },
+  methods: {}
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Admin/Index.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Admin/Index.vue?vue&type=script&lang=js& ***!
@@ -4475,326 +4537,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
  // import Welcome from '@/Jetstream/Welcome'
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -4925,6 +4667,21 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -35158,159 +34915,269 @@ var render = function() {
             ),
             _vm._v(" "),
             _c("ul", { staticClass: "mt-6" }, [
-              _c("li", { staticClass: "relative px-6 py-3" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100",
-                    attrs: { href: "/dashboard" }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-5 h-5",
-                        attrs: {
-                          "aria-hidden": "true",
-                          fill: "none",
-                          "stroke-linecap": "round",
-                          "stroke-linejoin": "round",
-                          "stroke-width": "2",
-                          viewBox: "0 0 24 24",
-                          stroke: "currentColor"
-                        }
-                      },
-                      [
-                        _c("path", {
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100",
+                      attrs: { href: "/dashboard" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
                           attrs: {
-                            d:
-                              "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                            "aria-hidden": "true",
+                            fill: "none",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round",
+                            "stroke-width": "2",
+                            viewBox: "0 0 24 24",
+                            stroke: "currentColor"
                           }
-                        })
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "ml-4" }, [_vm._v("Dashboard")])
-                  ]
-                )
-              ])
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [_vm._v("Dashboard")])
+                    ]
+                  )
+                ],
+                1
+              )
             ]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", { staticClass: "relative px-6 py-3" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                    attrs: { href: "/admin/members" }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-5 h-5",
-                        attrs: {
-                          fill: "none",
-                          stroke: "currentColor",
-                          viewBox: "0 0 24 24",
-                          xmlns: "http://www.w3.org/2000/svg"
-                        }
-                      },
-                      [
-                        _c("path", {
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
+                      attrs: { href: "/admin/members" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
                           attrs: {
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              "stroke-linecap": "round",
+                              "stroke-linejoin": "round",
+                              "stroke-width": "2",
+                              d:
+                                "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [_vm._v("Members")])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
+                      attrs: { href: "/admin/events" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
+                          attrs: {
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              "stroke-linecap": "round",
+                              "stroke-linejoin": "round",
+                              "stroke-width": "2",
+                              d:
+                                "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [_vm._v("Events")])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
+                      attrs: { href: "/admin/posts" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
+                          attrs: {
+                            "aria-hidden": "true",
+                            fill: "none",
                             "stroke-linecap": "round",
                             "stroke-linejoin": "round",
                             "stroke-width": "2",
-                            d:
-                              "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                            viewBox: "0 0 24 24",
+                            stroke: "currentColor"
                           }
-                        })
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "ml-4" }, [_vm._v("Members")])
-                  ]
-                )
-              ]),
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [_vm._v("Posts")])
+                    ]
+                  )
+                ],
+                1
+              ),
               _vm._v(" "),
-              _c("li", { staticClass: "relative px-6 py-3" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                    attrs: { href: "/admin/events" }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-5 h-5",
-                        attrs: {
-                          fill: "none",
-                          stroke: "currentColor",
-                          viewBox: "0 0 24 24",
-                          xmlns: "http://www.w3.org/2000/svg"
-                        }
-                      },
-                      [
-                        _c("path", {
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
+                      attrs: { href: "/admin/membership" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
                           attrs: {
-                            "stroke-linecap": "round",
-                            "stroke-linejoin": "round",
-                            "stroke-width": "2",
-                            d:
-                              "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            xmlns: "http://www.w3.org/2000/svg"
                           }
-                        })
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "ml-4" }, [_vm._v("Events")])
-                  ]
-                )
-              ]),
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              "stroke-linecap": "round",
+                              "stroke-linejoin": "round",
+                              "stroke-width": "2",
+                              d:
+                                "M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [
+                        _vm._v("Membership")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
               _vm._v(" "),
-              _c("li", { staticClass: "relative px-6 py-3" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
-                    attrs: { href: "/admin/posts" }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-5 h-5",
-                        attrs: {
-                          "aria-hidden": "true",
-                          fill: "none",
-                          "stroke-linecap": "round",
-                          "stroke-linejoin": "round",
-                          "stroke-width": "2",
-                          viewBox: "0 0 24 24",
-                          stroke: "currentColor"
-                        }
-                      },
-                      [
-                        _c("path", {
+              _c(
+                "li",
+                { staticClass: "relative px-6 py-3" },
+                [
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200",
+                      attrs: { href: "/admin/organization" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "w-5 h-5",
                           attrs: {
-                            d:
-                              "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            xmlns: "http://www.w3.org/2000/svg"
                           }
-                        })
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "ml-4" }, [_vm._v("Posts")])
-                  ]
-                )
-              ])
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              "stroke-linecap": "round",
+                              "stroke-linejoin": "round",
+                              "stroke-width": "2",
+                              d:
+                                "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "ml-4" }, [
+                        _vm._v("Organization")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
             ])
           ])
         ]
@@ -37341,8 +37208,15 @@ var render = function() {
                                   [
                                     _c("div", [
                                       _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "font-semibold text-blue-500",
+                                          attrs: {
+                                            href:
+                                              "/admin/event/show/" + event.id
+                                          }
+                                        },
                                         [
                                           _vm._v(
                                             "\n                                                " +
@@ -37407,6 +37281,59 @@ var render = function() {
                   ])
                 ]
               )
+            ])
+          ]
+        },
+        proxy: true
+      }
+    ])
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("dashboard-layout", {
+    scopedSlots: _vm._u([
+      {
+        key: "content",
+        fn: function() {
+          return [
+            _c("div", { staticClass: "container px-6 mx-auto grid" }, [
+              _c("div", { staticClass: "flex justify-between items-center" }, [
+                _c(
+                  "h2",
+                  {
+                    staticClass:
+                      "my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200"
+                  },
+                  [
+                    _vm._v(
+                      "\n                    Event - " +
+                        _vm._s(_vm.event.title) +
+                        "\n                "
+                    )
+                  ]
+                )
+              ])
             ])
           ]
         },
@@ -37979,1012 +37906,12 @@ var render = function() {
                         )
                       ]),
                       _vm._v(" "),
-                      _c(
-                        "tbody",
-                        {
-                          staticClass:
-                            "bg-white divide-y dark:divide-gray-700 dark:bg-gray-800"
-                        },
-                        [
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Hans Burger")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          10x Developer\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&facepad=3&fit=facearea&s=707b9c33066bf8808c934c8ab394dff6",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Jolina Angelie")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Unemployed\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 369.95\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Pending\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1551069613-1904dbdcda11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Sarah Curry")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Designer\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 86.00\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Denied\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1551006917-3b4c078c47c9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Rulia Joberts")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Actress\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 1276.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1546456073-6712f79251bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Wenzel Dashington")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Actor\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Expired\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1502720705749-871143f0e671?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b8377ca9f985d80264279f277f3a67f5",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Dave Li")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Influencer\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Maria Ramovic")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Runner\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/photo-1566411520896-01e7ca4726af?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Hitney Wouston")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          Singer\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "tr",
-                            { staticClass: "text-gray-700 dark:text-gray-400" },
-                            [
-                              _c("td", { staticClass: "px-4 py-3" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "flex items-center text-sm" },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "relative hidden w-8 h-8 mr-3 rounded-full md:block"
-                                      },
-                                      [
-                                        _c("img", {
-                                          staticClass:
-                                            "object-cover w-full h-full rounded-full",
-                                          attrs: {
-                                            src:
-                                              "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-                                            alt: "",
-                                            loading: "lazy"
-                                          }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("div", {
-                                          staticClass:
-                                            "absolute inset-0 rounded-full shadow-inner",
-                                          attrs: { "aria-hidden": "true" }
-                                        })
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _c(
-                                        "p",
-                                        { staticClass: "font-semibold" },
-                                        [_vm._v("Hans Burger")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                          10x Developer\n                        "
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    $ 863.45\n                  "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Approved\n                    "
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                    6/10/2020\n                  "
-                                )
-                              ])
-                            ]
-                          )
-                        ]
-                      )
+                      _c("tbody", {
+                        staticClass:
+                          "bg-white divide-y dark:divide-gray-700 dark:bg-gray-800"
+                      })
                     ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800"
-                    },
-                    [
-                      _c(
-                        "span",
-                        { staticClass: "flex items-center col-span-3" },
-                        [
-                          _vm._v(
-                            "\n              Showing 21-30 of 100\n            "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("span", { staticClass: "col-span-2" }),
-                      _vm._v(" "),
-                      _c(
-                        "span",
-                        {
-                          staticClass:
-                            "flex col-span-4 mt-2 sm:mt-auto sm:justify-end"
-                        },
-                        [
-                          _c(
-                            "nav",
-                            { attrs: { "aria-label": "Table navigation" } },
-                            [
-                              _c(
-                                "ul",
-                                { staticClass: "inline-flex items-center" },
-                                [
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple",
-                                        attrs: { "aria-label": "Previous" }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            staticClass: "w-4 h-4 fill-current",
-                                            attrs: {
-                                              "aria-hidden": "true",
-                                              viewBox: "0 0 20 20"
-                                            }
-                                          },
-                                          [
-                                            _c("path", {
-                                              attrs: {
-                                                d:
-                                                  "M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z",
-                                                "clip-rule": "evenodd",
-                                                "fill-rule": "evenodd"
-                                              }
-                                            })
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      1\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      2\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      3\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      4\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c("span", { staticClass: "px-3 py-1" }, [
-                                      _vm._v("...")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      8\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                      9\n                    "
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "button",
-                                      {
-                                        staticClass:
-                                          "px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple",
-                                        attrs: { "aria-label": "Next" }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            staticClass: "w-4 h-4 fill-current",
-                                            attrs: {
-                                              "aria-hidden": "true",
-                                              viewBox: "0 0 20 20"
-                                            }
-                                          },
-                                          [
-                                            _c("path", {
-                                              attrs: {
-                                                d:
-                                                  "M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z",
-                                                "clip-rule": "evenodd",
-                                                "fill-rule": "evenodd"
-                                              }
-                                            })
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]
-                              )
-                            ]
-                          )
-                        ]
-                      )
-                    ]
-                  )
+                  ])
                 ]
               )
             ])
@@ -39286,7 +38213,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "bg-white" }, [
-        _c("div", { staticClass: "flex" }, [
+        _c("div", { staticClass: "flex h-full" }, [
           _c("img", {
             staticClass: "w-2/4 border-black rounded shadow",
             attrs: {
@@ -39296,17 +38223,53 @@ var render = function() {
             }
           }),
           _vm._v(" "),
-          _c("div", { staticClass: "p-4" }, [
-            _c("h1", { staticClass: "font-bold text-2xl" }, [
-              _vm._v(_vm._s(_vm.event.title))
-            ]),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.event.description))]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Public")]),
-            _vm._v(" "),
-            _c("p")
-          ])
+          _c(
+            "div",
+            { staticClass: "flex flex-col justify-between p-4 w-full" },
+            [
+              _c("div", { staticClass: "flex flex-col w-full h-full" }, [
+                _c(
+                  "p",
+                  { staticClass: "text-purple-500 text-sm font-semibold" },
+                  [
+                    _vm._v(
+                      "\n                        Public\n                    "
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("h1", { staticClass: "font-bold text-2xl" }, [
+                  _vm._v(_vm._s(_vm.event.title))
+                ]),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.event.description))]),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.event.date))])
+              ]),
+              _vm._v(" "),
+              _vm.$page.user
+                ? _c(
+                    "button",
+                    {
+                      staticClass:
+                        "px-4 py-2 w-1/3 self-end text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+                    },
+                    [_vm._v("\n                    Register\n                ")]
+                  )
+                : _c(
+                    "button",
+                    {
+                      staticClass:
+                        "px-4 py-2 w-1/3 self-end text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+                    },
+                    [
+                      _vm._v(
+                        "\n                    Login/Sign Up\n                "
+                      )
+                    ]
+                  )
+            ]
+          )
         ]),
         _vm._v(" "),
         _c("div"),
@@ -54407,6 +53370,8 @@ var map = {
 	"./API/Index.vue": "./resources/js/Pages/API/Index.vue",
 	"./Admin/Event/Index": "./resources/js/Pages/Admin/Event/Index.vue",
 	"./Admin/Event/Index.vue": "./resources/js/Pages/Admin/Event/Index.vue",
+	"./Admin/Event/Show": "./resources/js/Pages/Admin/Event/Show.vue",
+	"./Admin/Event/Show.vue": "./resources/js/Pages/Admin/Event/Show.vue",
 	"./Admin/Index": "./resources/js/Pages/Admin/Index.vue",
 	"./Admin/Index.vue": "./resources/js/Pages/Admin/Index.vue",
 	"./Admin/Member/Index": "./resources/js/Pages/Admin/Member/Index.vue",
@@ -54659,6 +53624,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_template_id_47fb2d78___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_template_id_47fb2d78___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Admin/Event/Show.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/Pages/Admin/Event/Show.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Show.vue?vue&type=template&id=3eb63cfb& */ "./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb&");
+/* harmony import */ var _Show_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Show.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Show_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/Admin/Event/Show.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Show_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Show.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Admin/Event/Show.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Show_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Show.vue?vue&type=template&id=3eb63cfb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Admin/Event/Show.vue?vue&type=template&id=3eb63cfb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Show_vue_vue_type_template_id_3eb63cfb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

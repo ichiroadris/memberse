@@ -25,6 +25,11 @@ class EventController extends Controller
         return Inertia::render('Event/Show', ['event' => $event]);
     }
 
+    public function show($id) {
+        $event = Event::findOrFail($id);
+        return Inertia::render('Admin/Event/Show', ['event' => $event]);
+    }
+
     public function create(Request $req) {
 
         $event = new Event;
