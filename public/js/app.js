@@ -4574,20 +4574,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     DashboardLayout: _Layouts_DashboardLayout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
-  props: ['members', 'currentDate'],
+  props: ["members", "currentDate"],
   data: function data() {
     return {
-      datetime: ''
+      datetime: ""
     };
   },
   created: function created() {
-    console.log(this.members[0].subscription.expires_at);
-    console.log(this.currentDate);
+    console.log(this.members[1].created_at); // console.log(Instant.now());
   }
 });
 
@@ -38002,7 +38026,13 @@ var render = function() {
                                       _c(
                                         "p",
                                         { staticClass: "font-semibold" },
-                                        [_vm._v(_vm._s(member.name))]
+                                        [
+                                          _vm._v(
+                                            "\n                                                " +
+                                              _vm._s(member.name) +
+                                              "\n                                            "
+                                          )
+                                        ]
                                       ),
                                       _vm._v(" "),
                                       _c(
@@ -38013,9 +38043,9 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                          " +
+                                            "\n                                                " +
                                               _vm._s(member.email) +
-                                              "\n                        "
+                                              "\n                                            "
                                           )
                                         ]
                                       )
@@ -38026,39 +38056,52 @@ var render = function() {
                               _vm._v(" "),
                               _c("td", { staticClass: "px-4 py-3 text-sm" }, [
                                 _vm._v(
-                                  "\n                    " +
+                                  "\n                                    " +
                                     _vm._s(
                                       member.roles[0].name
                                         .charAt(0)
                                         .toUpperCase() +
                                         member.roles[0].name.slice(1)
                                     ) +
-                                    "\n                  "
+                                    "\n                                "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                      Valid\n                    "
+                                member.roles[0].name == "free"
+                                  ? _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full dark:bg-yellow-700 dark:text-yellow-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Forever\n                                    "
+                                        )
+                                      ]
                                     )
-                                  ]
-                                )
+                                  : _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Ongoing\n                                    "
+                                        )
+                                      ]
+                                    )
                               ]),
                               _vm._v(" "),
                               _c("td", { staticClass: "px-4 py-3 text-sm" }, [
                                 _vm._v(
-                                  "\n                     " +
+                                  "\n                                    " +
                                     _vm._s(
                                       _vm.$luxon(member.created_at, "short")
                                     ) +
-                                    "\n                  "
+                                    "\n                                "
                                 )
                               ])
                             ]
