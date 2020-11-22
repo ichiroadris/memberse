@@ -44,6 +44,7 @@ Route::group(['middleware' => ['role:admin']], function () {
 
 Route::get('/events', [EventController::class, 'publicIndex']);
 Route::get('/event/{id}', [EventController::class, 'publicShow']);
+Route::post('/event/join/{id}', [EventController::class, 'join']);
 
 
 Route::group(['middleware' => ['role:member']], function () {

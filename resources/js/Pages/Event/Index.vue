@@ -38,17 +38,17 @@
             >
                 <div>
                     <p class="text-purple-600 text-sm font-semibold">Public</p>
-                    <a :href="'/event/'+event.id" class="mb-2 font-semibold text-blue-500 hover:text-blue-600 text-lg dark:text-gray-300">
+                    <inertia-link :href="'/event/'+event.id" class="mb-2 font-semibold text-blue-500 hover:text-blue-600 text-lg dark:text-gray-300">
                         {{ event.title }}
-                    </a>
+                    </inertia-link>
                     <p class="text-base">{{event.date}}</p>
                     <p class="text-gray-600 h-full dark:text-gray-400">
                         {{ event.description }}
                     </p>
                 </div>
-                <button class="self-end px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue">
+                <inertia-link :href="'/event/'+event.id" class="self-end px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue">
                   Learn More
-                </button>
+                </inertia-link>
             </div>
         </div>
     </div>

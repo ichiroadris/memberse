@@ -43,4 +43,9 @@ class EventController extends Controller
         return back();
         // dd($req->title);
     }
+
+    public function join(Request $req) {
+        $event = Event::findOrFail($req->id);
+        dd($event);
+    }
 }

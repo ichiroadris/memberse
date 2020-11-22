@@ -64,4 +64,8 @@ class User extends Authenticatable
     public function subscription() {
         return $this->belongsTo('App\Models\Subscription');
     }
+
+    public function events() {
+        return $this->belongsToMany('App\Event', 'event_participants');
+    }
 }

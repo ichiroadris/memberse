@@ -15,6 +15,10 @@ class CreateEventParticipantsTable extends Migration
     {
         Schema::create('event_participants', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('event_id')->nullable();
+            $table->foreign('event_id')->references('id')->on('events')->onDelete('cascade');
+            $table->foreignId('user_id')->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }

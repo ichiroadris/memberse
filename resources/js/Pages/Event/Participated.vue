@@ -29,7 +29,7 @@
                 >
             </div>
         </div>
-        <div class="bg-white">
+        <!-- <div class="bg-white">
             <div class="flex h-full">
                 <img
                     src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F117883041%2F193040739936%2F1%2Foriginal.20201116-230953?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1920%2C960&s=1c2fc10f55f20017c639eebb14709a5e"
@@ -45,13 +45,11 @@
                         <p>{{ event.description }}</p>
                         <p>{{ event.date }}</p>
                     </div>
-                    <form v-if="$page.user" @submit.prevent="participate" class="self-end w-1/3">
-                        <button type="submit"
-                            class="px-4 py-2  text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
-                        >
-                            Participate
-                        </button>
-                    </form>
+                    <button
+                        class="px-4 py-2 w-1/3 self-end text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue" v-if="$page.user"
+                    >
+                        Participate
+                    </button>
                     <button
                         class="px-4 py-2 w-1/3 self-end text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue" v-else
                     >
@@ -61,7 +59,7 @@
             </div>
             <div></div>
             <div></div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -70,11 +68,6 @@ export default {
     props: ["event"],
     created() {
         console.log(this.event);
-    },
-    methods: {
-        participate() {
-            this.$inertia.post(`/event/join/${this.event.id}`,);
-        }
     }
 };
 </script>
