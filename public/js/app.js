@@ -4599,6 +4599,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -38078,6 +38084,19 @@ var render = function() {
                                       [
                                         _vm._v(
                                           "\n                                        Forever\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  : member.subscription.status == "expiring"
+                                  ? _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:bg-red-700 dark:text-red-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Expiring\n                                    "
                                         )
                                       ]
                                     )
