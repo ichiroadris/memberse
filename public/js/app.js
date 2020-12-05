@@ -4264,13 +4264,86 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
  // import Welcome from '@/Jetstream/Welcome'
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     DashboardLayout: _Layouts_DashboardLayout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
-  props: ['event'],
+  props: ["event"],
   data: function data() {
     return {};
   },
@@ -37582,7 +37655,167 @@ var render = function() {
                     )
                   ]
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-full mb-8 overflow-hidden rounded-lg shadow-xs"
+                },
+                [
+                  _c("div", { staticClass: "w-full overflow-x-auto" }, [
+                    _c("table", { staticClass: "w-full whitespace-no-wrap" }, [
+                      _c("thead", [
+                        _c(
+                          "tr",
+                          {
+                            staticClass:
+                              "text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
+                          },
+                          [
+                            _c("th", { staticClass: "px-4 py-3" }, [
+                              _vm._v("Name")
+                            ]),
+                            _vm._v(" "),
+                            _c("th", { staticClass: "px-4 py-3" }, [
+                              _vm._v("Email")
+                            ]),
+                            _vm._v(" "),
+                            _c("th", { staticClass: "px-4 py-3" }, [
+                              _vm._v("Status")
+                            ]),
+                            _vm._v(" "),
+                            _c("th", { staticClass: "px-4 py-3" }, [
+                              _vm._v("Date Registered")
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "tbody",
+                        {
+                          staticClass:
+                            "bg-white divide-y dark:divide-gray-700 dark:bg-gray-800"
+                        },
+                        _vm._l(_vm.event.participants, function(member) {
+                          return _c(
+                            "tr",
+                            {
+                              key: member.index,
+                              staticClass: "text-gray-700 dark:text-gray-400"
+                            },
+                            [
+                              _c("td", { staticClass: "px-4 py-3" }, [
+                                _c(
+                                  "div",
+                                  { staticClass: "flex items-center text-sm" },
+                                  [
+                                    _c("div", [
+                                      _c(
+                                        "p",
+                                        { staticClass: "font-semibold" },
+                                        [
+                                          _vm._v(
+                                            "\n                                                " +
+                                              _vm._s(member.name) +
+                                              "\n                                            "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "p",
+                                        {
+                                          staticClass:
+                                            "text-xs text-gray-600 dark:text-gray-400"
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n                                                " +
+                                              _vm._s(member.email) +
+                                              "\n                                            "
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                                _vm._v(
+                                  "\n                                    " +
+                                    _vm._s(
+                                      member.roles[0].name
+                                        .charAt(0)
+                                        .toUpperCase() +
+                                        member.roles[0].name.slice(1)
+                                    ) +
+                                    "\n                                "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                                member.roles[0].name == "free"
+                                  ? _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full dark:bg-yellow-700 dark:text-yellow-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Forever\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  : member.subscription.status == "expiring"
+                                  ? _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:bg-red-700 dark:text-red-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Expiring\n                                    "
+                                        )
+                                      ]
+                                    )
+                                  : _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                        Ongoing\n                                    "
+                                        )
+                                      ]
+                                    )
+                              ]),
+                              _vm._v(" "),
+                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                                _vm._v(
+                                  "\n                                    " +
+                                    _vm._s(
+                                      _vm.$luxon(member.created_at, "short")
+                                    ) +
+                                    "\n                                "
+                                )
+                              ])
+                            ]
+                          )
+                        }),
+                        0
+                      )
+                    ])
+                  ])
+                ]
+              )
             ])
           ]
         },
@@ -55336,8 +55569,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/ichiroadris/dev/projects/memberse/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/ichiroadris/dev/projects/memberse/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! G:\code\laravel\memberse\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! G:\code\laravel\memberse\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

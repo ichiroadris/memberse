@@ -17,8 +17,12 @@ class Event extends Model
         'price'
     ];
 
-    public function participants() {
-        return $this->belongsToMany('App\User', 'event_participants');
-    }
+    protected $with = [
+        'participants'
+    ];
 
+    public function participants()
+    {
+        return $this->belongsToMany('App\Models\User', 'event_participants');
+    }
 }

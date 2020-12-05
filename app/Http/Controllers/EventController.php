@@ -3,34 +3,41 @@
 namespace App\Http\Controllers;
 
 use App\Models\Event;
+use App\Models\EventParticipant;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
 class EventController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         $events = Event::all();
         return Inertia::render('Admin/Event/Index', ['events' => $events]);
     }
 
-    public function publicIndex() {
+    public function publicIndex()
+    {
         $events = Event::all();
         return Inertia::render('Event/Index', ['events' => $events]);
     }
 
-    public function publicShow($id) {
+    public function publicShow($id)
+    {
         // dd($id);
         $event = Event::findOrFail($id);
         // dd($event);
         return Inertia::render('Event/Show', ['event' => $event]);
     }
 
-    public function show($id) {
+    public function show($id)
+    {
         $event = Event::findOrFail($id);
         return Inertia::render('Admin/Event/Show', ['event' => $event]);
     }
 
-    public function create(Request $req) {
+    public function create(Request $req)
+    {
 
         $event = new Event;
         $event->title = $req->title;
@@ -44,8 +51,13 @@ class EventController extends Controller
         // dd($req->title);
     }
 
-    public function join(Request $req) {
+    public function join(Request $req)
+    {
         $event = Event::findOrFail($req->id);
-        dd($event);
+        $user = auth()->user();
+        $event_user = new EventParticipant;
+        $event_user->user_id = $user->id;
+        $event_user->event_id = $event->id;
+        $event_user->save();
     }
 }
