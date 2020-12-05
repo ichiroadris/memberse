@@ -4303,40 +4303,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
  // import Welcome from '@/Jetstream/Welcome'
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -37683,10 +37649,6 @@ var render = function() {
                             ]),
                             _vm._v(" "),
                             _c("th", { staticClass: "px-4 py-3" }, [
-                              _vm._v("Status")
-                            ]),
-                            _vm._v(" "),
-                            _c("th", { staticClass: "px-4 py-3" }, [
                               _vm._v("Date Registered")
                             ])
                           ]
@@ -37723,79 +37685,20 @@ var render = function() {
                                               "\n                                            "
                                           )
                                         ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "p",
-                                        {
-                                          staticClass:
-                                            "text-xs text-gray-600 dark:text-gray-400"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                                                " +
-                                              _vm._s(member.email) +
-                                              "\n                                            "
-                                          )
-                                        ]
                                       )
                                     ])
                                   ]
                                 )
                               ]),
                               _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                                _vm._v(
-                                  "\n                                    " +
-                                    _vm._s(
-                                      member.roles[0].name
-                                        .charAt(0)
-                                        .toUpperCase() +
-                                        member.roles[0].name.slice(1)
-                                    ) +
-                                    "\n                                "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
-                                member.roles[0].name == "free"
-                                  ? _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full dark:bg-yellow-700 dark:text-yellow-100"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                                        Forever\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  : member.subscription.status == "expiring"
-                                  ? _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:bg-red-700 dark:text-red-100"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                                        Expiring\n                                    "
-                                        )
-                                      ]
-                                    )
-                                  : _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                                        Ongoing\n                                    "
-                                        )
-                                      ]
-                                    )
+                              _c("td", [
+                                _c("p", { staticClass: "px-4 py-3 text-sm" }, [
+                                  _vm._v(
+                                    "\n                                        " +
+                                      _vm._s(member.email) +
+                                      "\n                                    "
+                                  )
+                                ])
                               ]),
                               _vm._v(" "),
                               _c("td", { staticClass: "px-4 py-3 text-sm" }, [
