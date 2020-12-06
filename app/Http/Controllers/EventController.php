@@ -7,6 +7,7 @@ use App\Models\EventParticipant;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Redirect;
 
 class EventController extends Controller
 {
@@ -59,5 +60,7 @@ class EventController extends Controller
         $event_user->user_id = $user->id;
         $event_user->event_id = $event->id;
         $event_user->save();
+
+        return back();
     }
 }
